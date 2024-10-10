@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "docs-updater"
+version = "0.1.0"
+description = "A tool to update documentation from multiple Git repositories"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gitpython = "^3.1.30"
+requests = "^2.32.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

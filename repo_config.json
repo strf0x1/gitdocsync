@@ -1,0 +1,18 @@
+{
+  "temp_storage_path": "/var/tmp/docs_repos",
+  "docs_storage_path": "./docs",
+  "repositories": [
+    {
+      "url": "https://github.com/langchain-ai/langchain.git",
+      "docs_folder": "docs",
+      "branch": "master",
+      "version": "langchain-core==0.3.10"
+    },
+    {
+      "url": "https://github.com/withastro/astro.git",
+      "docs_folder": "examples",
+      "branch": "main",
+      "version": "astro@4.16.0"
+    }
+  ]
+}
